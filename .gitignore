@@ -1,0 +1,5 @@
+# Ignorar node_modules (carpeta de dependencias)
+node_modules/
+
+# Archivo Docker 
+docker-compose.example.yml

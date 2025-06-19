@@ -1,0 +1,12 @@
+services:
+  websocket-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${WEBSOCKET_PORT}:${WEBSOCKET_PORT}"  # Mapea el puerto según la variable de entorno WEBSOCKET_PORT
+    env_file:
+      - .env  # Carga las variables de entorno desde el archivo .env
+    volumes:
+      - .:/usr/src/WebsocketQR
+    restart: unless-stopped  # Reinicia el contenedor en caso de fallos o apagado inesperado
