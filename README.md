@@ -32,6 +32,24 @@ Este módulo implementa un servidor WebSocket utilizando Node.js, Express y la b
 
  - **ws**: Biblioteca que permite implementar servidores y clientes WebSocket en Node.js, facilitando la comunicación en tiempo real entre el servidor y múltiples clientes. Es la base del sistema de envío/recepción de imágenes en tu aplicación.
 
+ ## Imágenes de Ejemplo para lo que se utilizo este proyecto
+A continuación, se detallan algunas imágenes representativas del funcionamiento de la aplicación:
+
+1. QR para escanear con el móvil:
+En esta imagen se muestra el QR que los usuarios pueden escanear con sus dispositivos móviles para tomar una foto. Este QR es parte de la interfaz de usuario que permite a los clientes enviar imágenes al servidor WebSocket en tiempo real.
+
+![Pantalla del QR](ImagesReadme/ImagenQR1.png)
+
+2. Interfaz del proyecto en un dispositivo móvil:
+A continuación, se muestra cómo se visualiza la página web desde un dispositivo móvil. Esta vista permite a los usuarios tomar fotos y enviarlas al servidor WebSocket, que luego las retransmite a otros clientes conectados en tiempo real.
+
+![Pantalla del QR](ImagesReadme/Foto.jpeg)
+
+3. Código de WebSocket en acción:
+Esta imagen presenta el fragmento de código que maneja la funcionalidad de WebSocket. Este código es el encargado de recibir y transmitir imágenes entre los clientes conectados, asegurando que se realice en tiempo real con la mayor eficiencia posible.
+
+![Pantalla del QR](ImagesReadme/ImagenQR2.png)
+
  ## Comnado para usar el proyecto:
 
  - npm install
